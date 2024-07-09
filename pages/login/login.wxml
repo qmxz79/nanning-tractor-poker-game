@@ -1,0 +1,12 @@
+<view class="container">
+  <view class="header">
+    <text>用户登录</text>
+  </view>
+  <view class="main">
+    <input type="text" placeholder="昵称" bindinput="onNicknameInput" />
+    <input type="password" placeholder="密码" bindinput="onPasswordInput" />
+    <button bindtap="register">注册</button>
+    <button bindtap="login">登录</button>
+    <button bindtap="startAIGame">与人机对战</button>
+  </view>
+</view>
