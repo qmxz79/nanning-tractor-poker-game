@@ -1,0 +1,28 @@
+<view class="container">
+  <view class="header">
+    <text>南宁拖拉机扑克游戏</text>
+  </view>
+  <view class="main">
+    <view class="player-hand">
+      <block wx:for="{{playerHand}}" wx:key="index">
+        <view class="card">
+          <text class="rank">{{item.rank}}</text>
+          <image class="suit" src="{{item.suitImage}}" />
+        </view>
+      </block>
+    </view>
+    <view class="game-table">
+      <text>游戏开始，出牌中...</text>
+      <block wx:for="{{gameTable}}" wx:key="index">
+        <view class="card">
+          <text class="rank">{{item.rank}}</text>
+          <image class="suit" src="{{item.suitImage}}" />
+        </view>
+      </block>
+    </view>
+    <button bindtap="playCard">出牌</button>
+  </view>
+  <view class="footer">
+    <text>根据南宁地区拖拉机扑克游戏规则制定的网络棋牌游戏。</text>
+  </view>
+</view>
