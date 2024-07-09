@@ -8,7 +8,7 @@ WORKDIR /app
 COPY package*.json ./
 
 # 安装依赖
-RUN npm install
+运行 npm install
 
 # 复制项目文件
 COPY . .
@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 80
 
 # 启动微信小程序开发服务器（假设使用 serve 或其他静态文件服务器）
-CMD ["npx", "serve", "-s", "dist"]
+CMD ["npx", "serve", "-s", "."]
