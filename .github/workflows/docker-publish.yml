@@ -27,4 +27,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: your-dockerhub-username/weapp:latest
+          tags: qmxz79/weapp:latest
