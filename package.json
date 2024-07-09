@@ -1,0 +1,14 @@
+{
+  "name": "nanning-tractor-poker-game",
+  "version": "1.0.0",
+  "description": "A WeChat Mini Program for the Nanning Tractor Poker game.",
+  "main": "app.js",
+  "scripts": {
+    "start": "serve -s ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^14.0.1"
+  }
+}
