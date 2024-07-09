@@ -1,0 +1,14 @@
+/* about.wxss */
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.header {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.main {
+  margin: 20px 0;
+}

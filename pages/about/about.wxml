@@ -1,0 +1,9 @@
+<view class="container">
+  <view class="header">
+    <text>关于我们</text>
+  </view>
+  <view class="main">
+    <text>拖拉机扑克游戏</text>
+    <text>版本号：{{version}}</text>
+  </view>
+</view>
